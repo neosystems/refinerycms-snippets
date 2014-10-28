@@ -7,7 +7,7 @@ module Refinery
 
     acts_as_indexed :fields => [:title, :body]
 
-    validates :title, :presence => true, :uniqueness => true
+    #validates :title, :presence => true, :uniqueness => true
 
     translates :body
 
